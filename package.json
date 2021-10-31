@@ -6,8 +6,7 @@
   "type": "module",
   "main": "min-heap.js",
   "scripts": {
-    "start": "parcel watch",
-    "build": "parcel build"
+    "dev-tests": "node tests/test-1.js && node tests/test-2.js"
   },
   "keywords": [
     "minheap",

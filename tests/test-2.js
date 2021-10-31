@@ -1,7 +1,7 @@
 // TEST 2:
 // Custom comparison function
 
-import MinHeap from "../min-heap.js";
+import MinHeap from "../index.js";
 
 const john = {
   firstName: "John",

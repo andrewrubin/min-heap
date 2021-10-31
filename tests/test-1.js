@@ -1,7 +1,7 @@
 // TEST 1:
 // Basic insertion and removal
 
-import MinHeap from "../min-heap.js";
+import MinHeap from "../index.js";
 
 const numberHeap = new MinHeap();
 
