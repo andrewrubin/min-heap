@@ -1,6 +1,6 @@
 {
   "name": "@andrewrubin/min-heap",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Min Heap data structure in JavaScript",
   "repository": "https://github.com/andrewrubin/min-heap",
   "type": "module",
