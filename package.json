@@ -7,7 +7,6 @@
   "main": "dist/min-heap.js",
   "scripts": {
     "start": "parcel watch",
-    "test": "node ./tests/index.js",
     "build": "parcel build"
   },
   "author": "Andrew Rubin <arubin78@gmail.com>",
