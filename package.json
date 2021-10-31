@@ -2,6 +2,7 @@
   "name": "@andrewrubin/min-heap",
   "version": "1.0.0",
   "description": "Min Heap data structure in JavaScript",
+  "repository": "https://github.com/andrewrubin/min-heap",
   "type": "module",
   "source": "min-heap.js",
   "main": "dist/min-heap.js",
@@ -9,6 +10,12 @@
     "start": "parcel watch",
     "build": "parcel build"
   },
+  "keywords": [
+    "minheap",
+    "binaryheap",
+    "tree",
+    "heap"
+  ],
   "author": "Andrew Rubin <arubin78@gmail.com>",
   "license": "ISC",
   "devDependencies": {
