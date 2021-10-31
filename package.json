@@ -4,8 +4,7 @@
   "description": "Min Heap data structure in JavaScript",
   "repository": "https://github.com/andrewrubin/min-heap",
   "type": "module",
-  "source": "min-heap.js",
-  "main": "dist/min-heap.js",
+  "main": "min-heap.js",
   "scripts": {
     "start": "parcel watch",
     "build": "parcel build"
