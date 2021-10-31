@@ -1,5 +1,5 @@
 {
-  "name": "min-heap",
+  "name": "@andrewrubin/min-heap",
   "version": "0.0.0",
   "description": "Min Heap data structure in JavaScript",
   "type": "module",
