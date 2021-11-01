@@ -28,9 +28,9 @@ minHeap.insert(-2);
 minHeap.peek(); // -2
 
 minHeap.pull(); // removes and returns -2
-```
 
----
+minHeap.isEmpty(); // false
+```
 
 ## Custom comparison
 
