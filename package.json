@@ -15,8 +15,5 @@
     "heap"
   ],
   "author": "Andrew Rubin <arubin78@gmail.com>",
-  "license": "ISC",
-  "devDependencies": {
-    "parcel": "~2.0.0"
-  }
+  "license": "ISC"
 }
