@@ -32,13 +32,15 @@ minHeap.pull(); // removes and returns -2
 minHeap.isEmpty(); // false
 ```
 
-## Custom comparison
+---
+
+## Optional: custom comparison
 
 MinHeap's default behavior is to directly compare the values of nodes (consider the usage example above, where the inserted values are integers). However, if your data takes on a different form, MinHeap allows you to pass a custom comparison callback to its constructor.
 
 The comparison callback receives two arguments: each is a node to compare within the heap. The comparison function is expected to return `true` if the second node passed is greater than the first, and false otherwise (technically "greater than" could mean anything — how you prioritize your data is up to you!).
 
-"Nodes" in this implementation of a min heap are always objects (specifically, instances of the `HeapNode` class defined in the source code) which MinHeap creates upon calling `insert(value)`. You can access the a node's value for comparison via `node.value`.
+"Nodes" in this implementation of a min heap are always objects (specifically, instances of the `HeapNode` class defined in the source code) which MinHeap creates upon calling `insert(value)`. You can access a node's value for comparison via `node.value`.
 
 In the example below, we need the priority of nodes to be based on their values' birth year.
 
