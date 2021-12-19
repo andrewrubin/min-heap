@@ -6,7 +6,7 @@
   "type": "module",
   "main": "min-heap.js",
   "scripts": {
-    "dev-tests": "node tests/test-1.js && node tests/test-2.js"
+    "dev-tests": "for i in tests/*.js; do node $i; done"
   },
   "keywords": [
     "minheap",

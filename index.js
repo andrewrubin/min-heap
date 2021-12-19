@@ -160,8 +160,13 @@ class MinHeap {
     if (this.#list.length === 0) return;
 
     const firstNode = this.#list[0];
-    this.#list[0] = this.#list.pop();
-    this.#heapifyDown(0);
+    const poppedNode = this.#list.pop();
+
+    if (this.#list.length !== 0) {
+      this.#list[0] = poppedNode;
+      this.#heapifyDown(0);
+    }
+
     return firstNode.value;
   }
 
