@@ -5,12 +5,19 @@
   "repository": "https://github.com/andrewrubin/min-heap",
   "issues": "https://github.com/andrewrubin/min-heap/issues",
   "type": "module",
-  "main": "index.js",
+  "source": "index.js",
   "exports": {
-    ".": "./index.js"
+    "require": "./dist/min-heap.cjs",
+    "default": "./dist/min-heap.js"
   },
+  "main": "./dist/min-heap.cjs",
+  "module": "./dist/min-heap.module.js",
+  "unpkg": "./dist/min-heap.umd.js",
   "scripts": {
-    "dev-tests": "for i in tests/*.js; do node $i; done"
+    "build": "microbundle",
+    "dev": "microbundle watch",
+    "tests": "for i in tests/*.js; do node $i; done",
+    "prepare": "npm run tests && npm run build"
   },
   "keywords": [
     "minheap",
@@ -21,5 +28,8 @@
     "priority"
   ],
   "author": "Andrew Rubin <arubin78@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "microbundle": "~0.15.1"
+  }
 }
