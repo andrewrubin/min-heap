@@ -50,7 +50,7 @@ class MinHeap {
   /**
    * Gets the parent node's index.
    *
-   * @param {Number} i - index of the node whose parent you want.
+   * @param {Number} i index of the node whose parent you want.
    * @returns the index of the parent node.
    */
   #parent(i) {
@@ -60,7 +60,7 @@ class MinHeap {
   /**
    * Gets the index of the node's left child.
    *
-   * @param {Number} i - index of the node whose left child you want.
+   * @param {Number} i index of the node whose left child you want.
    * @returns the index of the node's left child.
    */
   #leftChild(i) {
@@ -71,7 +71,7 @@ class MinHeap {
   /**
    * Gets the index of the node's right child.
    *
-   * @param {Number} i - index of the node whose right child you want.
+   * @param {Number} i index of the node whose right child you want.
    * @returns the index of the node's right child.
    */
   #rightChild(i) {
@@ -83,7 +83,7 @@ class MinHeap {
    * Bubbles a node up the heap to its proper position, to maintain the min heap
    * strutcure.
    *
-   * @param {Number} i - index of the node to bubble up.
+   * @param {Number} i index of the node to bubble up.
    */
   #heapifyUp(i) {
     if (this.#list.length < 2) return;
@@ -111,7 +111,7 @@ class MinHeap {
    * Moves a node down the heap to its proper position, to maintain the min heap
    * strutcure.
    *
-   * @param {Number} i - index of the node to move down.
+   * @param {Number} i index of the node to move down.
    */
   #heapifyDown(i) {
     if (this.#list.length < 2) return;
