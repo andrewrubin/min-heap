@@ -6,6 +6,9 @@
   "issues": "https://github.com/andrewrubin/min-heap/issues",
   "type": "module",
   "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
   "scripts": {
     "dev-tests": "for i in tests/*.js; do node $i; done"
   },
