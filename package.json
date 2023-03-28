@@ -1,10 +1,11 @@
 {
   "name": "@andrewrubin/min-heap",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Min Heap data structure in JavaScript",
   "repository": "https://github.com/andrewrubin/min-heap",
+  "issues": "https://github.com/andrewrubin/min-heap/issues",
   "type": "module",
-  "main": "min-heap.js",
+  "main": "index.js",
   "scripts": {
     "dev-tests": "for i in tests/*.js; do node $i; done"
   },
@@ -12,7 +13,9 @@
     "minheap",
     "binaryheap",
     "tree",
-    "heap"
+    "heap",
+    "queue",
+    "priority"
   ],
   "author": "Andrew Rubin <arubin78@gmail.com>",
   "license": "ISC"
